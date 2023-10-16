@@ -20,9 +20,9 @@ export const Brand = {
   URIs: {
     Home: 'https://jimmyliao.net/consulting-bot',
     // App: 'https://get.consulting-bot.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
+    CardImage: 'https://jimmyliao.net/images/fb_share.jpg',
+    OpenRepo: 'https://github.com/jimmyliao/big-agi',
     SupportInvite: 'https://discord.gg/4JJsemSu',
-    // Twitter: 'https://www.twitter.com/enricoros',
+    // Twitter: 'https://www.twitter.com/jimmyliao',
   },
 };
