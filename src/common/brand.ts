@@ -15,14 +15,14 @@ export const Brand = {
     Description: 'Consulting Bot, a medical chatbot for doctors and patients',
     SiteName: 'consulting-bot',
     ThemeColor: '#32383E',
-    TwitterSite: '@enricoros',
+    TwitterSite: '@jimmyliao',
   },
   URIs: {
     Home: 'https://jimmyliao.net/consulting-bot',
     // App: 'https://get.consulting-bot.com',
     CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
     OpenRepo: 'https://github.com/enricoros/big-agi',
-    // SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
+    SupportInvite: 'https://discord.gg/4JJsemSu',
     // Twitter: 'https://www.twitter.com/enricoros',
   },
 };
