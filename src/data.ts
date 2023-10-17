@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 // export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
-export type SystemPurposeId = 'ConsultingBot' | 'Custom' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'ConsultingBot' | 'Custom' | 'Developer' | 'Generic' | 'Scientist';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -17,13 +17,13 @@ type SystemPurposeData = {
 };
 
 export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
-  // Developer: {
-  //   title: 'Developer',
-  //   description: 'Helps you code',
-  //   systemMessage: 'You are a sophisticated, accurate, and modern AI programming assistant', // skilled, detail-oriented
-  //   symbol: '👩‍💻',
-  //   examples: ['hello world in 10 languages', 'translate python to typescript', 'find and fix a bug in my code', 'add a mic feature to my NextJS app', 'automate tasks in React'],
-  // },
+  Developer: {
+    title: 'Developer',
+    description: 'Helps you code',
+    systemMessage: 'You are a sophisticated, accurate, and modern AI programming assistant', // skilled, detail-oriented
+    symbol: '👩‍💻',
+    examples: ['hello world in 10 languages', 'translate python to typescript', 'find and fix a bug in my code', 'add a mic feature to my NextJS app', 'automate tasks in React'],
+  },
   ConsultingBot: {
     title: 'Consulting Bot',
     description: 'Helps you with medical consulting',
