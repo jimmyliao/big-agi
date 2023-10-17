@@ -3,7 +3,8 @@ import * as React from 'react';
 // export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
 export type SystemPurposeId = 'ConsultingBot' | 'Custom' | 'Developer' | 'Generic' | 'Scientist';
 
-export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
+// export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
+export const defaultSystemPurposeId: SystemPurposeId = 'ConsultingBot';
 
 type SystemPurposeData = {
   title: string;

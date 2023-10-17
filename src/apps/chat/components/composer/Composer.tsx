@@ -467,7 +467,8 @@ export function Composer(props: {
               <MicButton variant={micVariant} color={micColor} onClick={handleMicClicked} />
             </Box>}
 
-            <CameraCaptureButton onOCR={handleCameraOCR} />
+            {/* 2023-10-17 demo purpose */}
+            {/* <CameraCaptureButton onOCR={handleCameraOCR} />
 
             <IconButton onClick={handleShowFilePicker} sx={{ ...hideOnDesktop }}>
               <AttachFileOutlinedIcon />
@@ -491,7 +492,7 @@ export function Composer(props: {
                       sx={{ ...hideOnMobile, justifyContent: 'flex-start' }}>
                 {props.isDeveloperMode ? 'Paste code' : 'Paste'}
               </Button>
-            </Tooltip>
+            </Tooltip> */}
 
             <input type='file' multiple hidden ref={attachmentFileInputRef} onChange={handleLoadAttachment} />
 

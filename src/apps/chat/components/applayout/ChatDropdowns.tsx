@@ -13,12 +13,12 @@ export function ChatDropdowns(props: {
   const { personaDropdown } = usePersonaIdDropdown(props.conversationId);
 
   return <>
-
+    {/* 2023-10-17 hide for demo purpose */}
     {/* Model selector */}
-    {chatLLMDropdown}
+    {/* {chatLLMDropdown} */}
 
     {/* Persona selector */}
-    {personaDropdown}
+    {/* {personaDropdown} */}
 
   </>;
 }
