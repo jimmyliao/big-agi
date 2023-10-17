@@ -36,11 +36,12 @@ export const ChatModeItems: { [key in ChatModeId]: { label: string; description:
   'immediate-follow-up': {
     label: 'Augmented Chat',
     description: 'Chat with follow-up questions',
-    experimental: true,
+    // experimental: true,
   },
   'react': {
     label: 'Reason+Act',
     description: 'Answer your questions with ReAct and search',
+    // experimental: true,
   },
   'write-user': {
     label: 'Write',
@@ -52,7 +53,9 @@ export const ChatModeItems: { [key in ChatModeId]: { label: string; description:
 export function AppChat() {
 
   // state
-  const [chatModeId, setChatModeId] = React.useState<ChatModeId>('immediate');
+  // const [chatModeId, setChatModeId] = React.useState<ChatModeId>('immediate');
+  // 2023-10-17 use write-user as default
+  const [chatModeId, setChatModeId] = React.useState<ChatModeId>('write-user');
   const [isMessageSelectionMode, setIsMessageSelectionMode] = React.useState(false);
   const [tradeConfig, setTradeConfig] = React.useState<TradeConfig | null>(null);
   const [clearConfirmationId, setClearConfirmationId] = React.useState<string | null>(null);
